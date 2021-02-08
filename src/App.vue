@@ -1,21 +1,13 @@
+<!--
+ * @Date: 08/02/2021 11.14.43 +0800
+ * @Author: KnowsCount
+ * @LastEditTime: 08/02/2021 11.55.17 +0800
+ * @FilePath: /qiokian/src/App.vue
+-->
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+    <img class="Rotation" src="./assets/logo.png" width="250" height="250">
+    <h1><a href="https://github.com/KnowsCount/qiokian">qiokian</a> {{ msg }}</h1>
   </div>
 </template>
 
@@ -24,7 +16,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'is an ACGN 3D guidance Vuejs component. '
     }
   }
 }
@@ -54,7 +46,28 @@ li {
   margin: 0 10px;
 }
 
+@-webkit-keyframes rotation{
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}
+}
+
+@keyframes rotation{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.Rotation{
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  animation: rotation 10s linear infinite;
+  -moz-animation: rotation 10s linear infinite;
+  -webkit-animation: rotation 10s linear infinite;
+  -o-animation: rotation 10s linear infinite;
+}
+
 a {
-  color: #42b983;
+  color: darkgreen;
 }
 </style>
