@@ -1,21 +1,23 @@
 <!--
  * @Date: 08/02/2021 09.49.03 +0800
  * @Author: KnowsCount
- * @LastEditTime: 08/02/2021 10.50.09 +0800
+ * @LastEditTime: 08/02/2021 11.06.28 +0800
  * @FilePath: /qiokian/README.md
 -->
 
-# qiokian - 3D anime in JavaScript!
+<img src="assets/logo.png" align="right" width="100" height="100" />
 
-![Shishiro Botan](https://knowscount-1304485449.cos.ap-shanghai.myqcloud.com/img/Xunj6HtW-wallha.com.jpg)
+# qiokian - 3D anime in JavaScript!
 
 > 🙊 ACGN 3D guidance Vuejs component.
 
+![Shishiro Botan](assets/shishiro_botan.jpg)
+
 ---
 
-Under development.
+_Under development._
 
-### Plans
+### 📈 Plans
 
 -   three.js (glTF format model)
 -   Shishiro Botan
