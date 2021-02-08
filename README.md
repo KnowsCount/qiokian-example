@@ -1,7 +1,7 @@
 <!--
  * @Date: 08/02/2021 09.49.03 +0800
  * @Author: KnowsCount
- * @LastEditTime: 08/02/2021 11.06.28 +0800
+ * @LastEditTime: 08/02/2021 11.19.48 +0800
  * @FilePath: /qiokian/README.md
 -->
 
@@ -15,9 +15,27 @@
 
 ---
 
-_Under development._
+## 🛠 Project setup
 
-### 📈 Plans
+### 📥 Install dependencies
 
--   three.js (glTF format model)
--   Shishiro Botan
+```
+npm install
+```
+
+### 🔨 Compiles and hot-reloads for development (port 1080)
+
+```
+npm run dev
+```
+
+### 📦 Compiles and minifies for production
+
+```
+npm run build
+```
+
+## 📈 Plans
+
+- three.js (glTF format model)
+- Shishiro Botan
