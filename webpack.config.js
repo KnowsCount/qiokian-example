@@ -1,14 +1,11 @@
 /*
  * @Date: 08/02/2021 11.14.43 +0800
  * @Author: KnowsCount
- * @LastEditTime: 08/02/2021 12.10.00 +0800
+ * @LastEditTime: 08/02/2021 14.16.47 +0800
  * @FilePath: /qiokian/webpack.config.js
  */
 var path = require("path");
 var webpack = require("webpack");
-
-// jarvis
-const Jarvis = require("webpack-jarvis");
 
 module.exports = {
 	entry: "./src/main.js",
