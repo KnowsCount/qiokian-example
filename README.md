@@ -1,17 +1,17 @@
 <!--
  * @Date: 08/02/2021 09.49.03 +0800
  * @Author: KnowsCount
- * @LastEditTime: 08/02/2021 11.19.48 +0800
+ * @LastEditTime: 08/02/2021 12.07.55 +0800
  * @FilePath: /qiokian/README.md
 -->
 
-<img src="assets/logo.png" align="right" width="100" height="100" />
+<img src=".assets/logo.png" align="right" width="100" height="100" />
 
-# qiokian - 3D anime in JavaScript!
+# qiokian - ACGN anime in JavaScript!
 
-> 🙊 ACGN 3D guidance Vuejs component.
+> 🙊 ACGN figure guidance Vuejs component.
 
-![Shishiro Botan](assets/shishiro_botan.jpg)
+![Shishiro Botan](.assets/shishiro_botan.jpg)
 
 ---
 
@@ -37,5 +37,4 @@ npm run build
 
 ## 📈 Plans
 
-- three.js (glTF format model)
 - Shishiro Botan
