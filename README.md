@@ -1,7 +1,7 @@
 <!--
  * @Date: 08/02/2021 09.49.03 +0800
  * @Author: KnowsCount
- * @LastEditTime: 08/02/2021 12.07.55 +0800
+ * @LastEditTime: 10/02/2021 23.44.15 +0800
  * @FilePath: /qiokian/README.md
 -->
 
@@ -35,6 +35,19 @@ npm run dev
 npm run build
 ```
 
+## 🧱 Usage
+
+- Add
+
+    ```html
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+    ```
+
+    into `index.html`
+
+-   globally import the component in `App.vue` and use it. The component is in [components/pia.vue](./src/components/pia.vue)
+
 ## 📈 Plans
 
-- Shishiro Botan
+-   Pia
+-   Shishiro Botan
