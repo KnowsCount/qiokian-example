@@ -1,11 +1,11 @@
 <!--
  * @Date: 10/02/2021 20.07.50 +0800
  * @Author: KnowsCount
- * @LastEditTime: 11/02/2021 19.59.04 +0800
+ * @LastEditTime: 12/02/2021 22.59.57 +0800
  * @FilePath: /qiokian/src/components/figures.vue
 -->
 <template>
-  <div></div>
+	<div></div>
 </template>
 
 <script>
@@ -14,7 +14,7 @@ export default {
 	data() {
 		return {
 			live2d_path:
-				'https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/',
+				'https://cdn.jsdelivr.net/gh/knowscount/live2d-widget@latest/',
 			cdnPath: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/',
 		}
 	},
