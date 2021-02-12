@@ -1,11 +1,11 @@
 <!--
  * @Date: 10/02/2021 20.07.50 +0800
  * @Author: KnowsCount
- * @LastEditTime: 10/02/2021 23.53.01 +0800
- * @FilePath: /qiokian/src/components/pia.vue
+ * @LastEditTime: 11/02/2021 19.59.04 +0800
+ * @FilePath: /qiokian/src/components/figures.vue
 -->
 <template>
-	<div></div>
+  <div></div>
 </template>
 
 <script>
@@ -13,31 +13,41 @@
 export default {
 	data() {
 		return {
-			live2d_path: "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/",
-			cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
-		};
+			live2d_path:
+				'https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/',
+			cdnPath: 'https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/',
+		}
 	},
 	mounted() {
-		this.__init();
+		this.__init()
 	},
 	methods: {
 		__init() {
-			this.loadAssets();
+			this.loadAssets()
 		},
 		loadAssets() {
 			// 加载 waifu.css live2d.min.js waifu-tips.js
 			if (screen.width >= 768) {
 				Promise.all([
-					this.loadExternalResource(this.live2d_path + "waifu.css", "css"),
-					this.loadExternalResource(this.live2d_path + "live2d.min.js", "js"),
-					this.loadExternalResource(this.live2d_path + "waifu-tips.js", "js")
+					this.loadExternalResource(
+						this.live2d_path + 'waifu.css',
+						'css'
+					),
+					this.loadExternalResource(
+						this.live2d_path + 'live2d.min.js',
+						'js'
+					),
+					this.loadExternalResource(
+						this.live2d_path + 'waifu-tips.js',
+						'js'
+					),
 				]).then(() => {
 					initWidget({
-						waifuPath: this.live2d_path + "waifu-tips.json",
+						waifuPath: this.live2d_path + 'waifu-tips.json',
 						//apiPath: "https://live2d.fghrsh.net/api/",
-						cdnPath: this.cdnPath
-					});
-				});
+						cdnPath: this.cdnPath,
+					})
+				})
 			}
 			// initWidget 第一个参数为 waifu-tips.json 的路径，第二个参数为 API 地址
 			// API 后端可自行搭建，参考 https://github.com/fghrsh/live2d_api
@@ -51,26 +61,25 @@ export default {
 			//   "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
 			//const live2d_path = "/live2d-widget/";
 			return new Promise((resolve, reject) => {
-				let tag;
+				let tag
 
-				if (type === "css") {
-					tag = document.createElement("link");
-					tag.rel = "stylesheet";
-					tag.href = url;
-				} else if (type === "js") {
-					tag = document.createElement("script");
-					tag.src = url;
+				if (type === 'css') {
+					tag = document.createElement('link')
+					tag.rel = 'stylesheet'
+					tag.href = url
+				} else if (type === 'js') {
+					tag = document.createElement('script')
+					tag.src = url
 				}
 				if (tag) {
-					tag.onload = () => resolve(url);
-					tag.onerror = () => reject(url);
-					document.head.appendChild(tag);
+					tag.onload = () => resolve(url)
+					tag.onerror = () => reject(url)
+					document.head.appendChild(tag)
 				}
-			});
-		}
-	}
-};
+			})
+		},
+	},
+}
 </script>
 
-<style>
-</style>
+<style></style>
