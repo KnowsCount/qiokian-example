@@ -1,13 +1,13 @@
 <!--
  * @Date: 08/02/2021 09.49.03 +0800
  * @Author: KnowsCount
- * @LastEditTime: 11/02/2021 16.13.32 +0800
+ * @LastEditTime: 15/02/2021 22.30.29 +0800
  * @FilePath: /qiokian/README.md
 -->
 
 <img src=".assets/logo.png" align="right" width="100" height="100" />
 
-# qiokian - anime in JavaScript!
+# qiokian - anime in Vue.js!
 
 > 🙊 anime figure Vuejs component.
 
