@@ -1,7 +1,7 @@
 <!--
  * @Date: 08/02/2021 09.49.03 +0800
  * @Author: KnowsCount
- * @LastEditTime: 15/02/2021 22.30.29 +0800
+ * @LastEditTime: 17/02/2021 22.22.10 +0800
  * @FilePath: /qiokian/README.md
 -->
 
@@ -9,7 +9,7 @@
 
 # qiokian - anime in Vue.js!
 
-> 🙊 anime figure Vuejs component.
+> 🙊 live2d anime figure Vuejs component.
 
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coders-sweat.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
@@ -21,6 +21,11 @@
 ![Shishiro Botan](.assets/shishiro_botan.jpg)
 
 ---
+
+## 🔗 Demo Link
+
+[qiokian](https://qiokian.vercel.app)
+[qiokian landing page](https://qiokian-landing.vercel.app)
 
 ## 🛠 Project setup
 
